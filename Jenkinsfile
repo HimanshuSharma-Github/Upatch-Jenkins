@@ -10,10 +10,7 @@ pipeline {
 
     stage('Upatch Config File Creation') {
       steps {
-        sh '''cd /scratch/
-
-
-sh create_upatch_config_file.sh'''
+        sh 'sh /scratch/create_upatch_config_file.sh'
       }
     }
 
