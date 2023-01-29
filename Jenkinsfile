@@ -13,7 +13,7 @@ pipeline {
         sh '''cd /scratch/
 
 
-sh create_upatch_config_file'''
+sh create_upatch_config_file.sh'''
       }
     }
 
