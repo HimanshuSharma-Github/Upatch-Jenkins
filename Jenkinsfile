@@ -10,7 +10,7 @@ pipeline {
 
     stage('Upatch Config File Creation') {
       steps {
-        sh '''pwd
+        pwd
 
 cd /scratch/
 
